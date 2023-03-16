@@ -13,7 +13,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
-      <section className="">
+      <section className="bg-fixed bg-center bg-cover bg-[url('/background.png')]">
         <Hero />
       </section>
     </>
