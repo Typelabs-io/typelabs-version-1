@@ -8,7 +8,7 @@ const Navbar = () => {
           <Link href="/">
             <img
               className="h-8 w-auto flex items-center"
-              src="/typelabs-logo.svg"
+              src="/typelabs.svg"
               alt="Typelabs logo"
             />
           </Link>

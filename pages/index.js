@@ -13,9 +13,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
-      <main className="">
+      <section className="">
         <Hero />
-      </main>
+      </section>
     </>
   );
 }
