@@ -15,6 +15,7 @@ module.exports = {
         Lavender: "#CCCCFF",
         Teal: "#39A5A5",
         lightTeal: "#8FCACA",
+        lightTeal: "#007979",
       },
       fontFamily: {
         secular: ["Secular One, sans-serif"],
