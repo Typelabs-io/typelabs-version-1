@@ -24,9 +24,11 @@ const Hero = () => {
           type="email"
           placeholder="Your email"
         />
-        <button class="bg-Teal text-white font-semibold py-2 px-3 rounded-md">
-          I want in
-        </button>
+        <div class="border-t border-gray-300 mb-4">
+          <button class="bg-Teal text-white font-semibold py-2 px-4 rounded-md">
+            I want in
+          </button>
+        </div>
       </form>
     </div>
   );
