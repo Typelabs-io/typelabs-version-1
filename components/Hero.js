@@ -1,33 +1,6 @@
 import React, { useState } from "react";
 
-const encode = (data) => {
-  return Object.keys(data)
-    .map((key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
-    .join("&");
-};
-
 const Hero = () => {
-  const [formData, setFormData] = useState({ email: "" });
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    fetch("/", {
-      method: "POST",
-      headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: encode({ "form-name": "contact", ...formData }),
-    })
-      .then(() => alert("Success!"))
-      .catch((error) => alert(error));
-  };
-
-  const handleChange = (e) => {
-    setFormData({
-      ...formData,
-      [e.target.name]: e.target.value,
-    });
-  };
-
-  const { email } = formData;
   return (
     <div class=" h-screen flex justify-center items-center flex-col">
       <h1 class="text-4xl md:text-7xl font-secular text-center  text-gray-800 mb-8">
