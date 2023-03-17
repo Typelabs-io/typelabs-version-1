@@ -13,7 +13,7 @@ const Hero = () => {
         Deliver your message with clarity and precision through our technical
         writing and design solutions.
       </h2>
-      <h2 className=" mona text-lg md:text-xl text-center text-gray-800 mb-4">
+      <h2 className="mona text-lg md:text-xl text-center text-gray-800 mb-4">
         {" "}
         Join our waitlist for a{" "}
         <span className="text-Teal font-bold"> free quote!</span>{" "}
