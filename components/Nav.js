@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 const Navbar = () => {
   return (
@@ -6,10 +7,12 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 flex justify-between items-center">
         <div>
           <Link href="/">
-            <img
+            <Image
               className="h-8 w-auto flex items-center"
               src="/typelabs.svg"
               alt="Typelabs logo"
+              width={167}
+              height={40}
             />
           </Link>
         </div>
@@ -36,6 +39,7 @@ const Navbar = () => {
           </a>
         </div>
       </div>
+      <hr className="w-full border-2 border-Leal my-2" />
     </nav>
   );
 };
