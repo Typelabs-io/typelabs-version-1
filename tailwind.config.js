@@ -9,15 +9,26 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    
     extend: {
       colors: {
-        Purple: "#8B00FF",
-        Lavender: "#CCCCFF",
         Teal: "#39A5A5",
         Leal: "#8FCACA"
       },
       fontFamily: {
         secular: ["Secular One, sans-serif"],
+      },
+      fontSize: {
+        'caption': '12px',
+        'overline': '10px',
+        sm: '14px',
+        base: '16px',
+        lg: '20px',
+        xl: '25px',
+        '2xl': '35px',
+        '3xl': '49px',
+        '4xl': '61px',
+        '5xl': '96px',
       },
     },
   },

@@ -1,5 +1,6 @@
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Nav";
+import Footer from "@/components/Footer";
 import Head from "next/head";
 import Image from "next/image";
 
@@ -13,9 +14,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
+      <hr className="w-full border-2 border-Leal" />
       <section className="bg-fixed bg-center bg-cover bg-[url('/background.png')]">
         <Hero />
       </section>
+      <Footer />
     </>
   );
 }
