@@ -18,16 +18,8 @@ const Hero = () => {
         Join our waitlist for a{" "}
         <span className="text-Teal font-bold"> free quote!</span>{" "}
       </h2>
-      <form onSubmit={handleSubmit} class="flex flex-col items-center">
-        <input
-          class="border border-Teal  focus:border-Teal rounded-md px-4 py-3 mb-4 w-80 md:w-96"
-          type="email"
-          name="email"
-          value={email}
-          onChange={handleChange}
-          placeholder="Your email"
-          required
-        />
+      <form class="flex flex-col items-center">
+        <input class="border border-Teal  focus:border-Teal rounded-md px-4 py-3 mb-4 w-80 md:w-96" />
         <div class="border-t border-gray-300 mb-4">
           <button
             type="submit"
