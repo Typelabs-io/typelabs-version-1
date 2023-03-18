@@ -13,7 +13,10 @@ module.exports = {
     extend: {
       colors: {
         Teal: "#39A5A5",
-        Leal: "#8FCACA"
+        Leal: "#8FCACA",
+        deal: "007979",
+        'Leal-100': "27AEAE",
+        accent: "#CCCCFF"
       },
       fontFamily: {
         secular: ["Secular One, sans-serif"],

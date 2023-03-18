@@ -3,8 +3,8 @@ import Image from "next/image";
 
 const Navbar = () => {
   return (
-    <nav className="bg-transparent py-2">
-      <div className="max-w-7xl mx-auto px-12 flex justify-between items-center">
+    <nav className="bg-transparent py-2 px-4 md:px-8 lg:px-16">
+      <div className="max-w-7xl mx-auto flex justify-between items-center">
         <div>
           <Link href="/">
             <Image
@@ -19,7 +19,7 @@ const Navbar = () => {
         <div>
           <a
             href="mailto:michael@typelabs.io"
-            className="mona text-base text-medium inline-flex tracking-wide items-center text-Teal py-2 px-4 "
+            className="mona text-base font-medium inline-flex tracking-wide items-center text-Teal py-2 px-4 "
           >
             Get in touch{" "}
             <svg
