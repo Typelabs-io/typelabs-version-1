@@ -2,9 +2,12 @@ import React, { useState } from "react";
 
 const Hero = () => {
   return (
+
     <div class="mx-4 md:mx-8 lg:mx-16 h-screen flex justify-center items-center flex-col">
       <h1 class="w-full md:w-2/3 text-2xl md:text-3xl lg:text-4xl font-secular text-center leading-tight text-black mb-1">
         Unlock the Power of Communication for Your Product
+
+
       </h1>
       <h2 class=" mona text-base text-center text-black mb-10">
         Deliver your message with clarity and precision through our technical
