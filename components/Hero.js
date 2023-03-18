@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 const Hero = () => {
   return (
-    <div class=" h-screen flex justify-center items-center flex-col">
+    <div class="h-auto p-12 md:p-28 flex justify-center items-center flex-col">
       <h1 class="text-2xl md:text-3xl lg:text-4xl font-secular text-center leading-tight text-black mb-1">
         Unlock the Power of
         <br /> Communication for Your
