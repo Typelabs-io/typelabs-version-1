@@ -10,12 +10,13 @@ export default function Home() {
         <title>Typelabs</title>
         <meta name="description" content="" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/Favicon.ico" />
       </Head>
       <Navbar />
       <hr className="w-full border-2 border-Leal" />
 
-      <section className=" bg-fixed bg-center bg-cover bg-[url('/background.png')]">
+      <section>
+
         <Hero />
       </section>
       <Footer />

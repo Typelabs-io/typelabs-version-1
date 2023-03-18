@@ -4,7 +4,7 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head />
-      <body>
+      <body className="bg-fixed bg-center bg-cover bg-[url('/background.png')]">
         <Main />
         <NextScript />
       </body>
