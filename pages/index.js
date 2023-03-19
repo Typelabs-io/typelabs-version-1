@@ -1,6 +1,5 @@
-import Hero from "@/components/Hero";
 import Navbar from "@/components/Nav";
-import Footer from "@/components/Footer";
+
 import Head from "next/head";
 
 export default function Home() {
@@ -13,13 +12,6 @@ export default function Home() {
         <link rel="icon" href="/Favicon.ico" />
       </Head>
       <Navbar />
-      <hr className="w-full border-2 border-Leal" />
-
-      <section>
-
-        <Hero />
-      </section>
-      <Footer />
     </>
   );
 }
