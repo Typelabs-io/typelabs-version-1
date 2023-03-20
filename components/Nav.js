@@ -23,9 +23,8 @@ const Navbar = () => {
             href="mailto:michael@typelabs.io"
             className="mona text-base font-medium inline-flex tracking-wide items-center text-Reef200 py-2 px-4"
           >
-            <AiOutlineMail className="h-7 w-7" />
+            <FiTwitter className="w-7 h-7 text-Reef200" />
           </a>
-          <FiTwitter className="w-7 h-7 text-Reef200" />
         </div>
       </div>
     </nav>
