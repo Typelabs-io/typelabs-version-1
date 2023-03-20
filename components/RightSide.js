@@ -33,7 +33,7 @@ const RightSide = () => {
             </div>
             <div class="flex items-center justify-between">
               <button
-                class="w-full bg-Reef200 hover:bg-blue-700 text-white py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+                class="w-full bg-Reef200 hover:bg-Reef300 text-white py-2 px-4 rounded focus:outline-none focus:shadow-outline"
                 type="button"
               >
                 PUT ME ON THE LIST
