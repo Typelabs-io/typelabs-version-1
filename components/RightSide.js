@@ -3,8 +3,8 @@ import React from "react";
 const RightSide = () => {
   return (
     <div className="mona h-screen flex items-center">
-      <div className="bg-white p-6 rounded-lg mx-auto">
-        <p className="tracking-wider text-md leading-normal">
+      <div className="bg-white md:p-6 rounded-lg mx-auto">
+        <p className="tracking-wider  text-md leading-normal">
           {" "}
           We are currently in the process of building our agency, and
           <br />
@@ -14,7 +14,7 @@ const RightSide = () => {
           <span className="font-bold text-Reef200"> FREE QUOTE.</span>
         </p>
         <div class="mx-auto">
-          <form class="shadow-md rounded pt-6 pb-8 mb-4">
+          <form class="shadow-md rounded pt-6 mb-1">
             <div class="mb-2">
               <input
                 class="shadow appearance-none border-2 rounded-md w-full py-4 px-6 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
