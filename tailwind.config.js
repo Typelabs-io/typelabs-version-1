@@ -16,6 +16,7 @@ module.exports = {
         deal: "007979",
         "Leal-100": "27AEAE",
         accent: "#C3C3C3",
+        Reef100: "#DDE0FF",
         Reef200: "#5465FF",
         Reef300: "#4654D4",
       },

@@ -3,7 +3,7 @@ import React from "react";
 const RightSide = () => {
   return (
     <div className="mona h-screen flex items-center">
-      <div className="bg-white md:p-6 rounded-lg mx-auto">
+      <div className="bg-white border-2 p-3 border-Reef200 md:p-6 rounded-lg mx-auto">
         <p className="tracking-wider  text-md leading-normal">
           {" "}
           We are currently in the process of building our agency, and
