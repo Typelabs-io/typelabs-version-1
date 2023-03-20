@@ -10,7 +10,8 @@ const RightSide = () => {
           <br />
           are excited to launch soon. If you are interested in our <br />
           services and would like to be notified when we launch, join <br />
-          our waitlist and get a <span className="font-bold"> FREE QUOTE.</span>
+          our waitlist and get a{" "}
+          <span className="font-bold text-Reef200"> FREE QUOTE.</span>
         </p>
         <div class="mx-auto">
           <form class="shadow-md rounded pt-6 pb-8 mb-4">
@@ -32,7 +33,7 @@ const RightSide = () => {
             </div>
             <div class="flex items-center justify-between">
               <button
-                class="w-full bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+                class="w-full bg-Reef200 hover:bg-blue-700 text-white py-2 px-4 rounded focus:outline-none focus:shadow-outline"
                 type="button"
               >
                 PUT ME ON THE LIST
