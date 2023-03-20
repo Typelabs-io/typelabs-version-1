@@ -1,24 +1,16 @@
 import React from "react";
-import styled from "styled-components";
 
-const Container = styled.div`
-  display: flex;
-`;
-
-const Pane = styled.div`
-  flex: 1;
-`;
 const SplitScreen = ({ left: Left, right: Right }) => {
   // props for the left and right hand will be passed in the App.jsx
   return (
-    <Container>
-      <Pane>
+    <div className="flex flex-col md:flex-row">
+      <div className="w-full md:w-1/2">
         <Left />
-      </Pane>
-      <Pane>
+      </div>
+      <div className="w-full md:w-1/2">
         <Right />
-      </Pane>
-    </Container>
+      </div>
+    </div>
   );
 };
 
