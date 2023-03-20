@@ -19,6 +19,7 @@ module.exports = {
         Reef100: "#DDE0FF",
         Reef200: "#5465FF",
         Reef300: "#4654D4",
+        cardText: "#A7A8AA",
       },
       fontFamily: {
         secular: ["Secular One, sans-serif"],

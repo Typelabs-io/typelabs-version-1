@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { FiTwitter } from "react-icons/fi";
-import { AiOutlineMail } from "react-icons/ai";
+
 const Navbar = () => {
   return (
     <nav className="bg-transparent py-2 px-4 md:px-8 lg:px-16">
