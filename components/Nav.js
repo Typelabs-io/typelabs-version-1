@@ -4,26 +4,25 @@ import { FiTwitter } from "react-icons/fi";
 
 const Navbar = () => {
   return (
-    <nav className="bg-transparent py-2 px-4 md:px-8 lg:px-16">
-      <div className="max-w-7xl mx-auto flex justify-between items-center ">
-        <div className="">
+    <nav className="bg-transparent py-2 px-4 tablet:px-8 desktop:px-20 z-10 absolute w-full">
+      <div className="mx-auto flex justify-between items-center ">
+        <div>
           <Link href="/">
             <Image
-              className="h-7 w-auto flex items-center"
               src="/typelabs.svg"
               alt="Typelabs logo"
-              width={167}
-              height={40}
+              width={142}
+              height={32}
             />
           </Link>
         </div>
 
         <div className="flex justify-evenly items-center">
           <a
-            href="mailto:michael@typelabs.io"
-            className="mona text-base font-medium inline-flex tracking-wide items-center text-Reef200 py-2 px-4"
+            href="https://twitter.com/TypelabsHQ?s=20"
+            className="mona text-base font-medium inline-flex tracking-wide items-center text-reef-200"
           >
-            <FiTwitter className="w-7 h-7 text-Reef200" />
+          <FiTwitter className="w-6 h-6 text-Reef200" />
           </a>
         </div>
       </div>
