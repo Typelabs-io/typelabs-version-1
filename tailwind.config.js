@@ -9,20 +9,26 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    screens: {
+      'mobile': '425px',
+      'tablet': '768px',
+      'desktop': '1024px',
+      'large': '1440px',
+    },
     extend: {
       colors: {
-        Teal: "#39A5A5",
-        Leal: "#8FCACA",
-        deal: "007979",
-        "Leal-100": "27AEAE",
-        accent: "#C3C3C3",
-        Reef100: "#DDE0FF",
-        Reef200: "#5465FF",
-        Reef300: "#4654D4",
-        cardText: "#A7A8AA",
+        reef: {
+          100: '#DDE0FF',
+          200: '#5465FF',
+          300: '#4654D4'
+        },
+        wave: {
+          100: '#D0ECE8',
+          200: '#129E8B',
+          300: '#0F8474'
+        }
       },
       fontFamily: {
-        secular: ["Secular One, sans-serif"],
         lora: ["Lora, serif"],
       },
       fontSize: {
@@ -30,12 +36,10 @@ module.exports = {
         overline: "10px",
         sm: "14px",
         base: "16px",
-        lg: "20px",
-        xl: "25px",
-        "2xl": "35px",
-        "3xl": "49px",
-        "4xl": "61px",
-        "5xl": "96px",
+        lg: "17px"
+      },
+      boxShadow: {
+        "right": '1px 0 0 0 rgba(0, 0, 0, 0.25)',
       },
     },
   },
