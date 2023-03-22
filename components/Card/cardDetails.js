@@ -1,54 +1,29 @@
+import React from "react";
+import { FiAward } from "react-icons/fi";
+import { FiBriefcase } from "react-icons/fi";
+import { FiPenTool } from "react-icons/fi";
+
 const cardDetails = [
   {
-    title: "Title 1",
+    title: "Quality",
     icon: (
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 24 24"
-        fill="none"
-        stroke="currentColor"
-        strokeWidth="2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      >
-        <path d="M12 4.2c-2.8-4-8-1.5-8 2.8 0 3.5 4 5.6 8 10.5 4-4.9 8-7 8-10.5 0-4.3-5.2-6.8-8-2.8z" />
-      </svg>
+      <FiAward className="w-5 h-5 text-reef-200" />
     ),
-    description: "Description 1",
+    description: "We take pride in delivering high-quality work that meets our clients' expectations and exceeds industry standards.",
   },
   {
-    title: "Title 2",
+    title: "Customer service",
     icon: (
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 24 24"
-        fill="none"
-        stroke="currentColor"
-        strokeWidth="2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      >
-        <path d="M12 4.2c-2.8-4-8-1.5-8 2.8 0 3.5 4 5.6 8 10.5 4-4.9 8-7 8-10.5 0-4.3-5.2-6.8-8-2.8z" />
-      </svg>
+      <FiBriefcase className="w-5 h-5 text-reef-200" />
     ),
-    description: "Description 2",
+    description: "We are committed to providing excellent customer service and support throughout the project lifecycle.",
   },
   {
-    title: "Title 3",
+    title: "Flexibility",
     icon: (
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 24 24"
-        fill="none"
-        stroke="currentColor"
-        strokeWidth="2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      >
-        <path d="M12 4.2c-2.8-4-8-1.5-8 2.8 0 3.5 4 5.6 8 10.5 4-4.9 8-7 8-10.5 0-4.3-5.2-6.8-8-2.8z" />
-      </svg>
+      <FiPenTool className="w-5 h-5 text-reef-200" />
     ),
-    description: "Description 3",
+    description: "We offer customized solutions that meet our clients' unique needs, and we are willing to work with you to achieve your goals.",
   },
 ];
 
