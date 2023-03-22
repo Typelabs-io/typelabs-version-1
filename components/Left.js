@@ -2,12 +2,13 @@ import React from "react";
 import Bullet from "./Bullet/Bullet";
 import Card from "./Card/Card";
 import cardDetails from "./Card/cardDetails";
+import Footer from "@/components/Footer";
 import bulletDetails from "./Bullet/bulletDetails";
 
 const Left = () => {
   return (
     <div className="w-auto desktop:w-1/2 bg-white border-b desktop:shadow-right pl-4 tablet:pl-8 desktop:pl-20">
-      <div className="mt-4 tablet:mt-8 desktop:mt-32">
+      <div className="mt-4 tablet:mt-8 desktop:mt-28 desktop:mb-20">
         <h3 className="font-lora font-medium text-3xl large:text-5xl italic text-black mb-4">
           Welcome to Typelabs
         </h3>
@@ -22,7 +23,7 @@ const Left = () => {
           What we do
         </h3>
         {/* Bullet */}
-        <div className="flex flex-wrap space-x-3">
+        <div className="flex flex-wrap w-4/5 gap-2 mb-10">
           {bulletDetails.map((bullet, index) => (
             <Bullet key={index} text={bullet.text} />
           ))}
@@ -32,7 +33,7 @@ const Left = () => {
           Choose Typelabs
         </h3>
         {/* Card */}
-        <div className="flex flex-wrap space-x-10">
+        <div className="flex flex-row items-start gap-2">
           {cardDetails.map((card, index) => (
             <Card
               key={index}
@@ -43,6 +44,7 @@ const Left = () => {
           ))}
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

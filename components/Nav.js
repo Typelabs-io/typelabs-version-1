@@ -22,7 +22,7 @@ const Navbar = () => {
             href="https://twitter.com/TypelabsHQ?s=20"
             className="mona text-base font-medium inline-flex tracking-wide items-center text-reef-200"
           >
-          <FiTwitter className="w-6 h-6 text-Reef200" />
+          <FiTwitter className="w-6 h-6 text-reef-200" />
           </a>
         </div>
       </div>
