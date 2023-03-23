@@ -29,6 +29,19 @@ const Left = () => {
             User-friendly interfaces that makes products visually appealing and
             easy to navigate.{" "}
           </li>{" "}
+          <li>
+            Articles that provide valuable insights into technical topics and
+            trends.
+          </li>
+          <li>
+            {" "}
+            Custom email design that enhances the effectiveness of your email
+            marketing campaigns.{" "}
+          </li>
+          <li>
+            Competitive pricing, without compromising on quality, so you get the
+            most value for your investment.
+          </li>
         </ul>
 
         <h3 className="font-lora font-medium text-3xl large:text-5xl italic text-black mb-4">
