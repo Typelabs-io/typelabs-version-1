@@ -4,6 +4,7 @@ import Card from "./Card/Card";
 import cardDetails from "./Card/cardDetails";
 import Footer from "@/components/Footer";
 import bulletDetails from "./Bullet/bulletDetails";
+import { TbPointFilled } from "react-icons/tb";
 
 const Left = () => {
   return (
@@ -12,15 +13,26 @@ const Left = () => {
         <h3 className="font-lora font-medium text-3xl large:text-5xl italic text-black mb-4">
           Welcome to Typelabs
         </h3>
-        <p className="mona text-sm large:text-lg text-black mb-10 w-4/5">
-          We are a technical writing and design agency that helps businesses and
-          individuals create high-quality technical documentation and design
-          assets. From user manuals and training guides to web design and web
-          development, we have the expertise and experience to meet your needs.
-        </p>
+        <ul className="list-disc list-inside pl-4 mona text-sm large:text-lg text-black mb-10 w-4/5 space-y-3">
+          <li className=" ">
+            {" "}
+            Your go-to agency for creating high-quality documentation for your
+            software products.{" "}
+          </li>
+          <li>
+            {" "}
+            User manuals and online help systems that help your audience use
+            your product seamlessly.
+          </li>
+          <li>
+            {" "}
+            User-friendly interfaces that makes products visually appealing and
+            easy to navigate.{" "}
+          </li>{" "}
+        </ul>
 
         <h3 className="font-lora font-medium text-3xl large:text-5xl italic text-black mb-4">
-          What we do
+          Solutions we offer
         </h3>
         {/* Bullet */}
         <div className="flex flex-wrap w-4/5 gap-2 mb-10">

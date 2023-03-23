@@ -20,6 +20,9 @@ const bulletDetails = [
   {
     text: "User Manuals",
   },
+  {
+    text: "Docs Design",
+  },
 ];
 
 export default bulletDetails;
