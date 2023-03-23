@@ -1,9 +1,10 @@
 import React from "react";
+import Foot from "./Foot";
 
 const Right = () => {
     return (
         <div className="bg-transparent pr-4 tablet:pr-8 desktop:pr-20 desktop:w-1/2">
-                <div className="bg-reef-100 mt-4 tablet:mt-8 desktop:mt-32 w-4/5 flex flex-col justify-center items-center p-1 rounded-2xl">
+                <div className="bg-reef-100 mt-4 tablet:mt-8 desktop:mt-20 w-4/5 flex flex-col justify-center items-center p-1 rounded-2xl">
                     <div className="bg-white flex flex-col justify-center items-center p-6 gap-6 rounded-xl border border-solid border-reef-200">
                         <p className="mona text-sm ">
                              We are currently in the process of building our agency, 
@@ -17,7 +18,8 @@ const Right = () => {
                         <button className="uppercase text-white font-medium rounded px-6 py-3 bg-reef-200 border border-solid border-reef-300">Put me on the list</button>
                     </form>
                     </div>
-                </div>
+            </div>
+            <Foot />
         </div>
     )
 };

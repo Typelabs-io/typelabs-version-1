@@ -1,5 +1,4 @@
 import Navbar from "@/components/Nav";
-import Footer from "@/components/Footer";
 import Mid from "@/components/Mid";
 import Head from "next/head";
 
@@ -14,7 +13,6 @@ export default function Home() {
       </Head>
       <Navbar />
       <Mid />
-      <Footer />
     </>
   );
 }

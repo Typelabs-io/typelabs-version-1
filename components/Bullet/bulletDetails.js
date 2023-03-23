@@ -1,12 +1,24 @@
 const bulletDetails = [
   {
-    text: "Text 1",
+    text: "Product Guides",
   },
   {
-    text: "Text 2",
+    text: "Technical Articles",
   },
   {
-    text: "Text 3",
+    text: "Training Guides",
+  },
+  {
+    text: "Email Design",
+  },
+  {
+    text: "Web Design",
+  },
+  {
+    text: "Deck Design",
+  },
+  {
+    text: "User Manuals",
   },
 ];
 
