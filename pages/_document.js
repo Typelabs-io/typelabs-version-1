@@ -5,10 +5,12 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head />
-      <body className="bg-fixed bg-center bg-cover bg-[url('/background.svg')] flex flex-col ">
+      <body className="bg-fixed bg-center bg-cover bg-[url('/background.svg')]">
         <Main />
         <NextScript />
       </body>
     </Html>
   );
 }
+
+
