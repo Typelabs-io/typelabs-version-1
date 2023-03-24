@@ -29,7 +29,7 @@ module.exports = {
         }
       },
       fontFamily: {
-        lora: ["Lora, serif"],
+        work: ['Work Sans', 'sans-serif'],
       },
       fontSize: {
         caption: "12px",
@@ -37,9 +37,6 @@ module.exports = {
         sm: "14px",
         base: "16px",
         lg: "17px"
-      },
-      boxShadow: {
-        "right": '1px 0 0 0 rgba(0, 0, 0, 0.25)',
       },
     },
   },
