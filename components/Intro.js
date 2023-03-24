@@ -5,17 +5,16 @@ const Intro = () => {
         <div className="flex flex-col justify-center items-center">
             <h3 className="font-work font-medium text-center text-3xl tablet:text-4xl desktop:text-5xl large:text-6xl text-black mb-8">
                 Welcome to {" "}
-                <span className="underline decoration-reef-200">
+                <span className="underline hover:decoration-reef-300 decoration-reef-200">
                     Typelabs
                 </span>
             </h3>
-            <ul className="list-disc list-outside marker:text-reef-200 pl-4 font-work text-justify text-sm desktop:text-base large:text-lg text-black space-y-3">
+            <ul className="list-disc list-outside marker:text-reef-200 pl-4 font-work text-justify text-sm desktop:text-base large:text-lg text-black space-y-2">
                 <li>
                     Your go-to agency for creating high-quality documentation for your
                     software products.
                 </li>
                 <li>
-
                     User manuals and online help systems that help your audience use
                     your product seamlessly.
                 </li>
