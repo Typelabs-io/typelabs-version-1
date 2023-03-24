@@ -13,7 +13,12 @@ const Form = () => {
           </span>{" "}
           from us
         </p>
-        <form className="w-full font-work text-sm desktop:text-base flex flex-col">
+        <form
+          method="POST"
+          action="https://ba62bc92.sibforms.com/serve/MUIEAPOuQtQWpp_0eRTkDJKpQx-vRHlJAyTExk_qS9SlTpY3SOLclySMWM-KgUZh24SlhD1ru_GMkJywrEyR7zMw4B3VBayOzAddq31Q5Ti-oMv_ci6cS_-hvZJoMvcZvrB3c4KCdK2S-zq2cnqSNNClmeewyf2uR34y5HnaMSmeymeR8mzilxUSXD-5NQBA3cv-tndOjKT8_SIH"
+          data-type="subscription"
+          className="w-full font-work text-sm desktop:text-base flex flex-col"
+        >
           <input
             type="text"
             placeholder="Your name"
@@ -22,6 +27,7 @@ const Form = () => {
           <input
             type="email"
             placeholder="Your email"
+            name="EMAIL"
             className="mb-4 tablet:mb-6 px-4 tablet:px-6 py-2 tablet:py-3 border border-solid border-gray-200 w-full rounded focus:outline-none focus:ring-1 focus:ring-reef-100 caret-reef-200"
           />
           <button
