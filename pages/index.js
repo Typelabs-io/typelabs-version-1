@@ -1,5 +1,6 @@
 import Navbar from "@/components/Nav";
-import Mid from "@/components/Mid";
+import Footer from "@/components/Footer";
+import Section from "@/components/Section";
 import Head from "next/head";
 
 export default function Home() {
@@ -12,7 +13,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
-      <Mid />
+      <Section />
+      <Footer />
     </>
   );
 }

@@ -4,7 +4,7 @@ import { FiTwitter } from "react-icons/fi";
 
 const Navbar = () => {
   return (
-    <nav className="bg-transparent py-2 px-4 tablet:px-8 desktop:px-20 z-10 absolute w-full">
+    <nav className="bg-transparent py-2 px-4 tablet:px-8 desktop:px-20 w-full">
       <div className="mx-auto flex justify-between items-center ">
         <div>
           <Link href="/">
@@ -20,9 +20,9 @@ const Navbar = () => {
         <div className="flex justify-evenly items-center">
           <a
             href="https://twitter.com/TypelabsHQ?s=20"
-            className="mona text-base font-medium inline-flex tracking-wide items-center text-reef-200"
+            className="font-work text-base font-medium inline-flex tracking-wide items-center text-reef-200"
           >
-          <FiTwitter className="w-6 h-6 text-reef-200" />
+            <FiTwitter className="w-6 h-6 text-reef-200" />
           </a>
         </div>
       </div>
