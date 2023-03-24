@@ -20,9 +20,9 @@ const Navbar = () => {
         <div className="flex justify-evenly items-center">
           <a
             href="https://twitter.com/TypelabsHQ?s=20"
-            className="font-work text-base font-medium inline-flex tracking-wide items-center text-reef-200"
+            className="font-work text-base inline-flex tracking-wide items-center text-reef-200"
           >
-            <FiTwitter className="w-6 h-6 text-reef-200" />
+            <FiTwitter className="w-6 h-6 hover:text-reef-300 text-reef-200" />
           </a>
         </div>
       </div>

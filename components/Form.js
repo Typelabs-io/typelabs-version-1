@@ -18,15 +18,17 @@ const Form = () => {
                     <input
                         type="text"
                         placeholder="Your name"
-                        className="mb-1 tablet:mb-2 px-4 tablet:px-6 py-2 tablet:py-3 border border-solid border-gray-200 w-full rounded"
+                        className="mb-1 tablet:mb-2 px-4 tablet:px-6 py-2 tablet:py-3 border border-solid border-gray-200 w-full rounded focus:outline-none focus:ring-1 focus:ring-reef-100 caret-reef-200"
                     />
                     <input
                         type="email"
                         placeholder="Your email"
-                        className="mb-4 tablet:mb-6 px-4 tablet:px-6 py-2 tablet:py-3 border border-solid border-gray-200 w-full rounded"
+                        className="mb-4 tablet:mb-6 px-4 tablet:px-6 py-2 tablet:py-3 border border-solid border-gray-200 w-full rounded focus:outline-none focus:ring-1 focus:ring-reef-100 caret-reef-200"
                     />
-                    <button className="uppercase text-white font-medium rounded px-4 tablet:px-6 py-2 tablet:py-3 bg-reef-200 border border-solid border-reef-300">
-                        Give me the quote
+                    <button className="uppercase text-white font-medium rounded px-4 tablet:px-6 py-2 tablet:py-3 
+                    bg-reef-200 hover:bg-reef-300 border border-solid border-reef-300
+                    focus:outline-none focus:ring focus:ring-reef-100">
+                        Count me in!
                     </button>
                 </form>
             </div>
