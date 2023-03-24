@@ -9,7 +9,7 @@ const Intro = () => {
           Typelabs
         </span>
       </h3>
-      <ul className="list-disc list-outside marker:text-reef-200 pl-4 font-work text-justify text-sm desktop:text-base large:text-lg text-black space-y-2 desktop:space-y-5 large:space-y-5">
+      <ul className="list-disc list-outside marker:text-reef-200 pl-4 font-work text-left text-sm desktop:text-base large:text-lg text-black space-y-2 desktop:space-y-5 large:space-y-5">
         <li>
           Your go-to agency for creating high-quality documentation for your
           software products.
