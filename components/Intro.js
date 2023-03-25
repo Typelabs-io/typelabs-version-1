@@ -19,7 +19,7 @@ const Intro = () => {
           product seamlessly.
         </li>
         <li>
-          User-friendly interfaces that makes products visually appealing and
+          User-friendly interfaces that make products visually appealing and
           easy to navigate.
         </li>
         <li>
