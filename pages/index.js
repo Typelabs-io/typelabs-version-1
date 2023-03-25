@@ -29,10 +29,7 @@ export default function Home() {
           name="twitter:title"
           content="High-Quality Documentation for Software Products - Typelabs"
         />
-        <meta
-          name="twitter:description"
-          content="High-Quality Documentation for Software Products"
-        />
+        <meta name="twitter:description" content="" />
         <meta
           name="twitter:image"
           content="https://elmerlar.sirv.com/BA4CE5EA-BC98-4672-9753-B03189D4D345.png"
