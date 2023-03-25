@@ -14,10 +14,7 @@ export default function Home() {
           name="description"
           content="Our agency specializes in creating high-quality user manuals, online help systems, and articles for software products.Get competitive pricing without compromising on quality."
         />
-        <meta
-          property="og:title"
-          content="High-Quality Documentation for Software Products"
-        />
+        <meta property="og:title" content="Typelabs" />
         <meta
           property="og:description"
           content="High-Quality Documentation for Software Products"
@@ -30,7 +27,10 @@ export default function Home() {
 
         <meta property="og:url" content="https://typelabs.io" />
         <meta property="twitter:site" content="@TypelabsHQ" />
-        <meta property="twitter:title" content="Typelabs" />
+        <meta
+          property="twitter:title"
+          content="High-Quality Documentation for Software Products"
+        />
         <meta
           property="twitter:description"
           content="High-Quality Documentation for Software Products"
