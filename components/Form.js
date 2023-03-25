@@ -4,7 +4,7 @@ const Form = () => {
   return (
     <div className="bg-reef-100 flex flex-col justify-center items-center p-1 rounded-xl tablet:rounded-2xl">
       <div className="bg-white flex flex-col justify-center items-center p-4 tablet:p-6 gap-4 tablet:gap-6 rounded-lg tablet:rounded-xl border border-solid border-reef-200">
-        <p className="font-work text-justify text-sm desktop:text-base ">
+        <p className="font-work text-left text-sm desktop:text-base ">
           We&apos;re thrilled to announce that our agency will be launching in
           the 2nd quarter of 2023. As we work towards our launch, we invite you
           to join our waitlist and be the first to receive a{" "}
