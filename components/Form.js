@@ -11,7 +11,7 @@ const Form = () => {
           <span className="font-medium text-reef-200 uppercase">
             free quote
           </span>{" "}
-          from us
+          from us.
         </p>
         <form
           method="POST"
