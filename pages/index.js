@@ -23,7 +23,7 @@ export default function Home() {
           property="og:image"
           content="https://elmerlar.sirv.com/BA4CE5EA-BC98-4672-9753-B03189D4D345.png"
         />
-        <meta name="twitter:card" content="summary" />
+
         <meta property="og:url" content="https://typelabs.io" />
         <meta property="twitter:site" content="@TypelabsHQ" />
 
