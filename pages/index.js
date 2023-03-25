@@ -27,10 +27,7 @@ export default function Home() {
 
         <meta property="og:url" content="https://typelabs.io" />
         <meta property="twitter:site" content="@TypelabsHQ" />
-        <meta
-          property="twitter:title"
-          content="High-Quality Documentation for Software Products"
-        />
+        <meta property="twitter:title" content="Typelabs" />
         <meta
           property="twitter:description"
           content="High-Quality Documentation for Software Products"
