@@ -17,7 +17,7 @@ export default function Home() {
         <meta property="og:title" content="Typelabs" />
         <meta
           property="og:description"
-          content="High-Quality Documentation for Software Products "
+          content="High-Quality Documentation for Software Products"
         />
         <meta
           property="og:image"
@@ -30,7 +30,7 @@ export default function Home() {
         <meta property="twitter:title" content="Typelabs" />
         <meta
           property="twitter:description"
-          content="High-Quality Documentation for Software Products "
+          content="High-Quality Documentation for Software Products"
         />
         <meta
           property="twitter:image"
