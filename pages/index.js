@@ -14,7 +14,7 @@ export default function Home() {
           name="description"
           content="Our agency specializes in creating high-quality user manuals, online help systems, and articles for software products.Get competitive pricing without compromising on quality."
         />
-        <meta property="og:title" content="Get a free quote" />
+        <meta property="og:title" content="Get a Free Quote" />
         <meta
           property="og:description"
           content="High-Quality Documentation for Software Products"
