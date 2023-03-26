@@ -5,7 +5,7 @@ import { BsLinkedin } from "react-icons/bs";
 
 const Navbar = () => {
   return (
-    <nav className="bg-transparent py-2 px-4 tablet:px-8 desktop:px-20 w-full">
+    <nav className="bg-transparent py-6 px-4 tablet:px-8 desktop:px-20 w-full">
       <div className="mx-auto flex justify-between items-center ">
         <div>
           <Link href="/">
@@ -18,7 +18,7 @@ const Navbar = () => {
           </Link>
         </div>
 
-        <div className="flex justify-evenly space-x-3 items-center">
+        <div className="flex justify-evenly space-x-4 items-center">
           <a
             target="_blank"
             href="https://twitter.com/TypelabsHQ?s=20"
