@@ -7,17 +7,15 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>
-          High-Quality Documentation for Software Products - Typelabs
-        </title>
+        <title>High-Quality Documentation for SaaS - Typelabs</title>
         <meta
           name="description"
-          content="Our agency specializes in creating high-quality user manuals, online help systems, and articles for software products.Get competitive pricing without compromising on quality."
+          content="Our agency specializes in creating high-quality user manuals, online help systems, and articles for SaaS. Get competitive pricing without compromising on quality."
         />
         <meta property="og:title" content="Get a Free Quote" />
         <meta
           property="og:description"
-          content="High-Quality Documentation for Software Products"
+          content="High-Quality Documentation for SaaS"
         />
         <meta
           property="og:image"
@@ -30,7 +28,7 @@ export default function Home() {
         <meta property="twitter:title" content="Get a Free Quote" />
         <meta
           property="twitter:description"
-          content="High-Quality Documentation for Software Products"
+          content="High-Quality Documentation for SaaS"
         />
         <meta
           property="twitter:image"
