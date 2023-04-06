@@ -11,28 +11,23 @@ const Intro = () => {
       </h3>
       <ul className="list-disc list-outside marker:text-reef-200 pl-4 font-work text-left text-sm desktop:text-base large:text-lg text-black space-y-2 desktop:space-y-5 large:space-y-5">
         <li>
-          Your go-to agency for creating high-quality documentation for your
-          software products.
+          Your go-to agency for creating high-quality documentation for SaaS
+          products.
         </li>
         <li>
-          User manuals and online help systems that help your audience use your
-          product seamlessly.
+          Our offerings include customer-friendly documentation and design to
+          ensure seamless use of your product.
         </li>
+
         <li>
-          User-friendly interfaces that make products visually appealing and
-          easy to navigate.
+          We create content that meets regulations and standards specific to
+          your industry.
         </li>
+
         <li>
-          Articles that provide valuable insights into technical topics and
-          trends.
-        </li>
-        <li>
-          Custom email design that enhances the effectiveness of your email
-          marketing campaigns.
-        </li>
-        <li>
-          Competitive pricing, without compromising on quality, so you get the
-          most value for your investment.
+          Typelabs maintains its commitment to competitive pricing without
+          sacrificing quality, allowing you to receive the best value for your
+          investment.
         </li>
       </ul>
     </div>
